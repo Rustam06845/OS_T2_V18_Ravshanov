@@ -1,0 +1,38 @@
+### Test 1: kichik sonlar (123 + 7)
+=== Katta sonlarni qo'shish (chiqish uchun q) ===
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: A (3 xona) = 123
+B (1 xona) = 7
+A + B (3 xona) = 130
+[%p] yig'indi satri heap'da joylashgan manzil: 0x55db905d9300
+
+Birinchi sonni kiriting: 
+Dastur tugadi.
+
+### Test 2: 100+ xonali sonlar (999...9 [100 ta] + 1)
+=== Katta sonlarni qo'shish (chiqish uchun q) ===
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: A (100 xona) = 99999999999999999999999999999999999
+B (1 xona) = 1
+A + B (101 xona) = 100000000000000000000000000000000000000000000000000000000000000000000000000000000
+[%p] yig'indi satri heap'da joylashgan manzil: 0x55d11cdcc370
+
+Birinchi sonni kiriting: 
+Dastur tugadi.
+
+### Test 3 (xato): harf, minus, bo'sh satr
+=== Katta sonlarni qo'shish (chiqish uchun q) ===
+
+Birinchi sonni kiriting: Xato: faqat raqamlardan iborat manfiy bo'lmagan butun son kiriting (chiqish uchun q).
+
+Birinchi sonni kiriting: Xato: faqat raqamlardan iborat manfiy bo'lmagan butun son kiriting (chiqish uchun q).
+
+Birinchi sonni kiriting: Xato: faqat raqamlardan iborat manfiy bo'lmagan butun son kiriting (chiqish uchun q).
+
+Birinchi sonni kiriting: Ikkinchi sonni kiriting: A (2 xona) = 12
+B (2 xona) = 30
+A + B (2 xona) = 42
+[%p] yig'indi satri heap'da joylashgan manzil: 0x565483b98300
+
+Birinchi sonni kiriting: 
+Dastur tugadi.
